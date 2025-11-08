@@ -1,0 +1,28 @@
+
+V1.0
+
+core_data
+core_domain
+core_ui
+core_util
+featured_login
+
+
+V1.1
+
+featured_login -> silindi
+
+feature based mutli modülden vazgeçtiğimiz için core_domain ve core_data'ya biraz daha iş düştü
+
+
+
+core_ui modülü altında uygulama teması, birincil buton, renklendirmelere olacak
+
+core_util modülü altında uygulamanın temel extations'ları, tanımlamalar vs. olacak
+
+core_data'de şuanlık request interface'leri olacak
+
+core_domain'de repository klasörü altında http requestler işlenecek
+               local klasörü alında lokal db işlemleri olacak
+               remote klasörü altında request endpointleri olacak
+               Ayrıca her base sınıflar işlemlere göre konumlandırılacak ( örn RetrofitClien, RoomDb )
